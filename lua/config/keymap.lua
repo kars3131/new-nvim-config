@@ -15,3 +15,11 @@ vim.keymap.set('n', '<leader>ut', vim.cmd.UndotreeToggle)
 
 --windows navigation
 vim.keymap.set('n', '<leader>cw', '<C-W>')
+vim.keymap.set('n', '<leader>sv', vim.cmd.vsplit)
+vim.keymap.set('n', '<leader>sw', vim.cmd.split)
+vim.keymap.set('n', '<Tab><Tab>', '<C-W><C-W>')
+vim.keymap.set('n', '<C-h>', '<C-W>h')
+vim.keymap.set('n', '<C-j>', '<C-W>j')
+vim.keymap.set('n', '<C-k>', '<C-W>k')
+vim.keymap.set('n', '<C-l>', '<C-W>l')
+
